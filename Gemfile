@@ -6,10 +6,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-archives"
   gem "jekyll-analytics"
-  gem "jekyll-cloudinary"
   gem "jemoji"
-  gem "jekyll-include-cache"
-  gem "jekyll-gist"
   gem "jekyll-paginate"
 end
 
