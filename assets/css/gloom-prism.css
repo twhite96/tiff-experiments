@@ -201,7 +201,7 @@ code.language-scss,
   .language-python .token.keyword {
     color: #F92672 !important; }
 
-    :not(pre) > code {
+  .language-plaintext {
       border-radius: .2.2em !important;
       background: #f5f5f5 !important;
       color: #BF616A !important;
