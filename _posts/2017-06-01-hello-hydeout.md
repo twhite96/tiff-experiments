@@ -68,7 +68,7 @@ of the body (e.g. for custom JS) by defining your own
 * Disqus integration is ready out of the box. Just add the following to
   your config file:
 
-  ```bash
+  ```shell
   disqus:
     shortname: my-disqus-shortname
   ```
