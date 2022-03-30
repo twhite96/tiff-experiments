@@ -26,7 +26,9 @@ pre[class*="language-"] {
   -ms-hyphens: none;
   hyphens: none;
   background: #292a44;
-  color: #66D9EF; }
+  color: #66D9EF; 
+  width: 100% !important;
+}
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
