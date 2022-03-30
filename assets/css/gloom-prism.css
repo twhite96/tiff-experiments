@@ -28,6 +28,7 @@ pre[class*="language-"] {
   background: #292a44;
   color: #66D9EF; 
   width: 100% !important;
+  overflow: auto;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
