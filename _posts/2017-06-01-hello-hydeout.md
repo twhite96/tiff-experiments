@@ -33,7 +33,7 @@ $link-color: #268bd2 !default;
 To override these variables, create your own `assets/css/main.scss` file.
 Define your own variables, then import in Hydeout's SCSS, like so:
 
-```
+```scss
 ---
 # Jekyll needs front matter for SCSS files
 ---
@@ -68,7 +68,7 @@ of the body (e.g. for custom JS) by defining your own
 * Disqus integration is ready out of the box. Just add the following to
   your config file:
 
-  ```yaml
+  ```bash
   disqus:
     shortname: my-disqus-shortname
   ```
