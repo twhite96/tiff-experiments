@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            tiff experiments
+title:            tiff in the lab
 tagline:          'welcome to the lab'
 description:      'a place for my non-dev thoughts and ideas, mainly focused on electronics and math'
 url:              https://fongandrew.github.io

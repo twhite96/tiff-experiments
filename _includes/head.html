@@ -2,7 +2,20 @@
   <link href="https://gmpg.org/xfn/11" rel="profile" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bigfoot-number.css" />
+  <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/center_image.css" />-->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/gloom-prism.css" />
+  <!-- <script src="assets/js/progress_bar.js"></script> -->
+  <!--Bigfoot-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bigfoot/2.1.4/bigfoot.min.js"></script>
+  <script type="text/javascript">
+    var bigfoot = $.bigfoot({
+      actionOriginalFN: "hide",
+      positionContent: "true"
+    });
+  </script>
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
@@ -28,3 +41,4 @@
 
   {% include custom-head.html %}
 </head>
+
